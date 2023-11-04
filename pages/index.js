@@ -12,7 +12,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Link href={'./test1'} className={'btn btn-info'}>
-        前往範例頁
+        前往Context範例頁
+      </Link>
+      <br />
+      <Link href={'./reducer/PickANumber'} className={'btn btn-info'}>
+        前往Reducer範例頁
       </Link>
     </>
   )
