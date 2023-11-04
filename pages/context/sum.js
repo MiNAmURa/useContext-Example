@@ -1,5 +1,5 @@
 import React from 'react'
-import TestValue3 from '../../components/test1/TestValue3'
+import TestValue3 from '../../components/contextTest/TestValue3'
 
 export default function sum() {
   return (

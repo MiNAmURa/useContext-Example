@@ -1,6 +1,6 @@
 import React from 'react'
-import TestValue1 from '../../components/test1/TestValue1'
-import TestValue2 from '../../components/test1/TestValue2'
+import TestValue1 from '../../components/contextTest/TestValue1'
+import TestValue2 from '../../components/contextTest/TestValue2'
 import Link from 'next/link'
 
 export default function Test1() {
@@ -12,7 +12,7 @@ export default function Test1() {
       <h1>TestValue2號</h1>
       <TestValue2 />
       <hr></hr>
-      <Link href={'./test1/sum'} className={'btn btn-info'}>
+      <Link href={'./context/sum'} className={'btn btn-info'}>
         前往總和
       </Link>
     </>

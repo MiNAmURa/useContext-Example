@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Link href={'./test1'} className={'btn btn-info'}>
+      <Link href={'./context'} className={'btn btn-info my-3'}>
         前往Context範例頁
       </Link>
       <br />
