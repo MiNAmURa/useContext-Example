@@ -39,4 +39,4 @@ export const useValueFromContext = () => {
   return useContext(exampleContext)
 }
 
-//5.接下來請移駕到component/test1/TestValue1.js
+//5.接下來請移駕到component/contextTest/TestValue1.js
